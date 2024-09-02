@@ -1,0 +1,50 @@
+
+K=8
+
+        if (rng<0.268) {degree=1;}
+        else if (rng<0.759) {degree=2;}
+        else if (rng<0.844) {degree=3;}
+        else if (rng<0.943) {degree=4;}
+	else if (rng<0.956) {degree=5;}
+        else if (rng<0.983) {degree=6;}
+        else if (rng<0.993) {degree=7;}
+        else {degree=8;}
+
+K=64
+
+        if (rng<0.161) {degree=1;}
+        else if (rng<0.561) {degree=2;}
+        else if (rng<0.817) {degree=4;}
+        else if (rng<0.918) {degree=8;}
+        else if (rng<0.963) {degree=16;}
+        else {degree=32;}
+
+
+K=400
+
+        if (rng<0.116375) {degree=1;}
+        else if (rng<0.372076) {degree=2;}
+        else if (rng<0.713816) {degree=3;}
+        else if (rng<0.82588) {degree=5;}
+	else if (rng<0.897614) {degree=8;}
+        else if (rng<0.92569) {degree=13;}
+        else if (rng<0.938859) {degree=21;}
+        else if (rng<0.969256) {degree=34;}
+        else if (rng<0.96952) {degree=55;}
+        else if (rng<0.98061) {degree=89;}
+        else {degree=144;}
+
+
+K=512 (Yen15)
+
+if (rng<0.0446) {degree=1;}
+else if (rng<0.5021) {degree=2;}
+else if (rng<0.6546) {degree=3;}
+else if (rng<0.7428) {degree=4;}
+else if (rng<0.7756) {degree=5;}
+else if (rng<0.7928) {degree=6;}
+else if (rng<0.8679) {degree=7;}
+else if (rng<0.9048) {degree=13;}
+else if (rng<0.9334) {degree=14;}
+else if (rng<0.9729) {degree=33;}
+else {degree=113;}
